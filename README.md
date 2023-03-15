@@ -25,7 +25,12 @@ Set up live streaming in 15 minutes in your Android project instead of 7 days of
 3. On the Streams screen, you can watch the available streams
 4. On the Select stream screen, you can select/create a stream to start streaming
 5. On the Start Broadcast screen, you can start broadcasting, set the video quality, and select push url or backup push url for streaming
+
 ## Screenshots
+<img src = "https://user-images.githubusercontent.com/127736115/225301476-7c70663f-e0ab-40ac-9228-547f9515583f.png" width=240> <img 
+src = "https://user-images.githubusercontent.com/127736115/225301513-f034f524-cf32-488f-878f-f692df4b0a85.png" width=240> <img 
+src = "https://user-images.githubusercontent.com/127736115/225301518-3d9fa78f-7585-48d6-a027-44122b753398.png" width=240> <img 
+src = "https://user-images.githubusercontent.com/127736115/225301489-dab01e98-8975-4234-999b-b77d84cca34a.png" width=728> 
 
 
 # Quick Start
