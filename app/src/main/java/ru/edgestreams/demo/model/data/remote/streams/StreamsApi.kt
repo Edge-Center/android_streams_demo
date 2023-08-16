@@ -11,20 +11,20 @@ interface StreamsApi {
      * @param withBroadcasts integer; Query parameter.
      * Set to 1 to get details of the broadcasts associated with the stream
      */
-    @GET("./streaming/streams")
+    @GET("./streaming/live/streams")
     fun getStreams(
         @Header("Authorization") accessToken: String,
         @Query("page") page: Int,
         @Query("with_broadcasts") withBroadcasts: Int = 1
     ): Single<List<StreamItemResponse>>
 
-    @GET("/streaming/streams/{stream_id}")
+    @GET("/streaming/live/streams/{stream_id}")
     fun getStreamDetailed(
         @Header("Authorization") accessToken: String,
         @Path("stream_id") streamId: Int
     ): Single<StreamDetailedResponse>
 
-    @POST("./streaming/streams")
+    @POST("./streaming/live/streams")
     fun createStream(
         @Header("Authorization") accessToken: String,
         @Body body: CreateStreamRequestBody
